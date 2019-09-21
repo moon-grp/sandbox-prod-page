@@ -1,5 +1,5 @@
 <template>
-    <v-container >
+    <v-container class="st">
         <v-row>
             <v-col>
                  <v-card
@@ -101,10 +101,11 @@ export default {
 }
 </script>
 
-<style >
-    .home {
+<style scoped>
+
+    .st {
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 </style>
 

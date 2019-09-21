@@ -1,8 +1,15 @@
 <template>
   <v-app >
  <toolbar />
+    
+       <full-page :options="options">
+      <div class="section">
     <home />
-    <qapage />
+      </div>
+      <div class="section">
+       <qapage />
+      </div>
+    </full-page>
     
     
   </v-app>
