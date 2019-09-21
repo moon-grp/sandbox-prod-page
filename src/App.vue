@@ -1,9 +1,8 @@
 <template>
   <v-app >
  <toolbar />
-
-    
-    <home class="pt-n10"/>
+    <home />
+    <qapage />
     
     
   </v-app>
@@ -12,13 +11,15 @@
 <script>
 import toolbar from './components/toolbar'
 import home from './components/homepage'
+import qapage from './components/qapage'
 
 
 export default {
   name: 'App',
   components: {
     toolbar,
-    home
+    home,
+    qapage
   },
   data: () => ({
     //
