@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "fullpage.js": "^3.0.7",
     "vue": "^2.6.10",
+    "vue-fullpage.js": "^0.1.4",
     "vuetify": "^2.0.0"
   },
   "devDependencies": {
